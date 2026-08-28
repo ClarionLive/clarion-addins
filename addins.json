@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "publisher": "ClarionLive",
+  "name": "ClarionLive",
+  "updated": "2026-08-28",
+  "addins": [],
+  "setupAddins": [
+    {
+      "id": "ClarionAssistant",
+      "name": "Clarion Assistant",
+      "description": "AI-powered assistant for the Clarion IDE: embedded Claude Code terminal, MCP tools, LSP integration, CodeGraph and DocGraph code intelligence, and IDE automation. Requires the Microsoft WebView2 runtime and a Claude account - the embedded Claude Code CLI transmits the prompts and source you give it to Anthropic's API. Ships as a Windows installer covering Clarion 10, 11, 11.1 and 12.",
+      "author": "ClarionLive",
+      "authorUrl": "https://github.com/ClarionLive",
+      "license": "MIT",
+      "category": "Utilities",
+      "githubRepo": "ClarionLive/ClarionAssistant",
+      "homepageUrl": "https://github.com/ClarionLive/ClarionAssistant",
+      "changelogUrl": "https://github.com/ClarionLive/ClarionAssistant/blob/master/docs/releases/CHANGELOG.md"
+    },
+    {
+      "id": "ClarionDebugger",
+      "name": "CA Debugger",
+      "description": "Standalone debugger for the Clarion IDE: native gutter breakpoints, stepping, call stack with procedure names, and watch-by-name over the TSWD debug engine. Installs independently - no Clarion Assistant required. Requires the Microsoft WebView2 runtime. Ships as a Windows installer covering Clarion 10, 11 and 12.",
+      "author": "ClarionLive",
+      "authorUrl": "https://github.com/ClarionLive",
+      "license": "MIT",
+      "category": "Utilities",
+      "githubRepo": "ClarionLive/CA-Debugger",
+      "homepageUrl": "https://github.com/ClarionLive/CA-Debugger",
+      "changelogUrl": "https://github.com/ClarionLive/CA-Debugger/blob/main/CHANGELOG.md"
+    }
+  ]
+}

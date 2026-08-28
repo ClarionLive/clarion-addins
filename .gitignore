@@ -1,0 +1,10 @@
+# Editors / OS
+.vs/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+
+# Local agent state
+.claude/worktrees/
+.claude/settings.local.json

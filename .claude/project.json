@@ -1,0 +1,16 @@
+{
+  "id": "677fec1d",
+  "name": "Clarion Addin Registry",
+  "description": "",
+  "changeLog": null,
+  "currentVersion": "0.1.0",
+  "createdAt": "2026-08-28T08:13:29.8107346-07:00",
+  "lastOpenedAt": "2026-08-28T08:13:29.8107375-07:00",
+  "isPinned": false,
+  "defaultTerminal": "claude-code",
+  "prompts": [
+  ],
+  "team": {
+    "agents": []
+  }
+}
