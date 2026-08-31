@@ -2,21 +2,9 @@
   "version": 1,
   "publisher": "ClarionLive",
   "name": "ClarionLive",
-  "updated": "2026-08-28",
+  "updated": "2026-08-31",
   "addins": [],
   "setupAddins": [
-    {
-      "id": "ClarionAssistant",
-      "name": "Clarion Assistant",
-      "description": "AI-powered assistant for the Clarion IDE: embedded Claude Code terminal, MCP tools, LSP integration, CodeGraph and DocGraph code intelligence, and IDE automation. Requires the Microsoft WebView2 runtime and a Claude account - the embedded Claude Code CLI transmits the prompts and source you give it to Anthropic's API. Ships as a Windows installer covering Clarion 10, 11, 11.1 and 12.",
-      "author": "ClarionLive",
-      "authorUrl": "https://github.com/ClarionLive",
-      "license": "MIT",
-      "category": "Utilities",
-      "githubRepo": "ClarionLive/ClarionAssistant",
-      "homepageUrl": "https://github.com/ClarionLive/ClarionAssistant",
-      "changelogUrl": "https://github.com/ClarionLive/ClarionAssistant/blob/master/docs/releases/CHANGELOG.md"
-    },
     {
       "id": "ClarionDebugger",
       "name": "CA Debugger",
