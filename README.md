@@ -10,15 +10,12 @@ Publisher list for **ClarionLive** in the [Clarion Addin Registry](https://githu
 
 | Addin | Install id | Repository | Distribution |
 |-------|-----------|------------|--------------|
+| Clarion Assistant | `ClarionAssistant` | [ClarionLive/ClarionAssistant](https://github.com/ClarionLive/ClarionAssistant) | Windows setup installer |
 | CA Debugger | `ClarionDebugger` | [ClarionLive/CA-Debugger](https://github.com/ClarionLive/CA-Debugger) | Windows setup installer |
 
-It ships as a setup installer, so it is listed under `setupAddins` rather than `addins`. Those
+Both ship as setup installers, so they are listed under `setupAddins` rather than `addins`. Those
 entries carry no `version` and no download URLs: AddinFinder resolves the latest GitHub release of
 `githubRepo` directly, and **the release tag is the version**.
-
-> Clarion Assistant will be added here once its own version reconciliation ships. Adding an addin to
-> this file needs no change to the registry and nobody's approval — that is what being a listed
-> publisher means.
 
 ## Releasing
 
